@@ -4,7 +4,7 @@ window.dom = {
         return document.querySelectorAll(nodes)
     },
     style(node, property, type) {
-        node.style[`${property}`] = type
+        node.style[property] = type
     },
     each(nodes, fn) {
         let array = []
